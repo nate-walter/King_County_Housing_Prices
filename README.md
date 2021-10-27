@@ -15,14 +15,14 @@
 * [Repository Structure](#Repository-Structure)
 
 ## Overview
-This project utilizes the King County House Sales dataset, which is an existing dataset based on data from house sales of King County, WA from 2014 to 2015. Through the Data Science Process, we seek to understand our dataset through Exploratory Data Analysis and prepare and model our data through an iterative approach. We begin from the baseline model and utilize an assortment of statistical techniques: linear regression, multlinear regression, ordinary least squares, recursive feature elimination, and binomial feature engineering.
+This project utilizes the King County House Sales dataset, which is an existing dataset based on data from house sales of King County, WA from 2014 to 2015. Through the Data Science Process, we seek to understand our dataset with Exploratory Data Analysis and prepare, then model our data through an iterative approach. We begin from the baseline model and utilize an assortment of statistical techniques: linear regression, multlinear regression, ordinary least squares, recursive feature elimination, and binomial feature engineering.
 
 Through the various statistical methods, we then seek to iterate across different models to idenitfy the model with the most optimal statistical R-Squared Value, RMSE, and differential values. Then, we look to highlight the two main features that best provide predictions to housing prices. 
 
 With price prediction in mind, our purpose for our statistical analysis is to provide banks to appraise home values throughout the COVID-19 pandemic. Without the need to physically enter the domicile of clients' homes, banks would be able to provide appraisal services to prospective clients and existing clients in hopes of capturing more market share in the residential real estate market. 
 
 
-Our findings will help ACME bank develop and validate home appraisals without the need for outside individuals to enter the a client or prospect's home. ACME can then use the predictions to set sales prices for homes to be put on the market at 
+Our findings will help ACME bank develop and validate home appraisals without the need for outside individuals to enter a client or prospect's home. ACME can then use the predictions to set sales prices for homes to be put on the market at 
 competitive market values based on the regression model's predictions.
 
 <img src=https://user-images.githubusercontent.com/66656063/125619329-48319b12-7456-46a7-b4a4-e27a6babbc6f.png width="500" height="300">
@@ -71,7 +71,7 @@ month_of_date - month of when the house was sold
 ## Methods
 This project uses multiple linear regression in combination with feature engineering, recursive feature elimination, 
 and dummy regression to predict an unknown house's sales price, all while adhering to the assumptions of linear regression. 
-Test are performed to discover any linear relationship between the dependent and independent variables. Multicollinearity is 
+Tests are performed to discover any linear relationship between the dependent and independent variables. Multicollinearity is 
 examined between the independent variables. The normal distribution of errors and homeoscedasticity are also omni-present goals to be met.  
 Our model uses train-test split which allows us to evaluate whether it has the right balance of bias and variance. 
 We use data visualization via Matplotlib and Seaborn, taking advantage of histograms, heatmaaps and scatter plots to 
@@ -113,12 +113,12 @@ Our last model, Model 4, utilized polynomial feature engineering to create new f
 
 ## Conclusions
 
-The final conclusion of the business recommendation hinges on our best-performing Model 1: a multiple linear regression model. More specifically, this multi-linear regression model leverages the power of log to transform all positive variables. Simultaneously, this model also dummies out categorical variables to derive its statistical results. The multiple linear regression model proves to be the most robut model in dealing with outlier values while also proving to be the most accurate model when benchmarked against its R-Squared values as well as its RMSE values. 
+The final conclusion of the business recommendation hinges on our best-performing Model 1: a multiple linear regression model. More specifically, this multi-linear regression model leverages the power of log to transform all positive variables. Simultaneously, this model also dummies out categorical variables to derive its statistical results. The multiple linear regression model proves to be the most robust model in dealing with outlier values while also proving to be the most accurate model when benchmarked against its R-Squared values as well as its RMSE values. 
 
 ### Actual Vs Predicted Values from Model 1
 ![actual vs predicted](./images/model1_actual_vs_predicted.png)
 
-Hence, given a set of housing datapoints, our multiple linear regression model can aid in predicting the housing prices from a given dataset. While one may assume that complex models may provide a more accurate prediction, our results reveal that a more simple model actually provides more accurate solutions, thus satisfying the principle of Occam's razor. Furthermore, the simple multiple linear regression model also reveals that amongst all features, location features and square footage of living space seems to have the biggest impact on housing prices. Thus, for the sake of predicting home values, it is essential to capture accurate data pertaining to these two features of any home.  
+Hence, given a set of housing datapoints, our multiple linear regression model can aid in predicting the housing prices from a given dataset. While one may assume that complex models may provide a more accurate prediction, our results reveal that a simpler model actually provides more accurate solutions. Furthermore, the simple multiple linear regression model also reveals that amongst all features, location features and square footage of living space seems to have the biggest impact on housing prices. Thus, for the sake of predicting home values, it is essential to capture accurate data pertaining to these two features of any home.  
 
 
 
