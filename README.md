@@ -34,7 +34,7 @@ With the recent wave of Delta variants in the Covid-19 string, key executives at
 Executives at ACME Bank have come to Group One Inc. in hopes of identifying a model that would help best predict home prices given a home's typical features. For example, given a dataset containing 20,000 different homes and its home features (i.e. number of bedrooms, number of bathrooms, square foot of living space, year built, zip code, etc), ACME Bank would like to know whether it can appropriately appraise a home's value with these different data. Accordingly, executives at ACME Bank have provided us with a dataset for house sales in King County from 2014 - 2015 in hopes obtaining a solution that could model a home's price. At Group One Inc., we have formulated a statistical model to answer this business problem.  
 
 
-## Data
+## The Data
 The Dataset used is from King County, Washington between May 2014 and May 2015. It includes housing sales prices along with other descriptive information invovling the properties. 
 
 * https://www.kaggle.com/harlfoxem/housesalesprediction
