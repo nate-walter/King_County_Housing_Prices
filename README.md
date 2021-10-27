@@ -10,7 +10,7 @@
 * [The Data](#The-Data)
 * [Methods](#Methods)
 * [Results](#Results)
-* [Conclusions](#Conclusion)
+* [Conclusions](#Conclusions)
 * [Next Steps](#Next-Steps)
 * [Repository Structure](#Repository-Structure)
 
