@@ -138,7 +138,6 @@ The model is currently tuned for a dataset that encapsulates both small-medium h
 ```
 ├── data      <-- contains the data for the main model notebook and Housing Price Heatmap
 ├── images      <-- contains the images for the readme
-├── 
 ├── king_county_Notebook      <-- main notebook where we determine the best model
 ├── king_county_presentation.pdf      <-- powerpoint presentation of project
 └── README.md
