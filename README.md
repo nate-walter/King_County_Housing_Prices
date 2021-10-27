@@ -1,4 +1,4 @@
-<img src=https://static.seattletimes.com/wp-content/uploads/2019/02/02062019_housing_160430-780x471.jpg width="1100" height="400">
+<img src=https://static.seattletimes.com/wp-content/uploads/2019/02/02062019_housing_160430-780x471.jpg width="800" height="350" align='center'>
 
 # A Regression Model That Appraises Homes Remotely for ACME Bank
 
@@ -25,7 +25,7 @@ With price prediction in mind, our purpose for our statistical analysis is to pr
 Our findings will help ACME bank develop and validate home appraisals without the need for outside individuals to enter a client or prospect's home. ACME can then use the predictions to set sales prices for homes to be put on the market at 
 competitive market values based on the regression model's predictions.
 
-<img src=https://user-images.githubusercontent.com/66656063/125619329-48319b12-7456-46a7-b4a4-e27a6babbc6f.png width="500" height="300">
+<img src=https://user-images.githubusercontent.com/66656063/125619329-48319b12-7456-46a7-b4a4-e27a6babbc6f.png width="500" height="300" align='center'>
 
 ## Business Problem
 
