@@ -136,19 +136,10 @@ The model is currently tuned for a dataset that encapsulates both small-medium h
 ## Repository Structure
 
 ```
-├── bakeoff_data       <-- contains the data for the bakeoff challenge
-├── data      <-- contains the data for the main model notebook
+├── data      <-- contains the data for the main model notebook and Housing Price Heatmap
 ├── images      <-- contains the images for the readme
-├── DS_060721_Group_1_bakeoff_results.csv      <-- the resulting predictions from the model based on bakeoff data
-├── README.md
-├── bakeoff.ipynb      <-- notebook that ran the model with bakeoff data
-├── king_county_appraisal_analysis_presentation.pdf      <-- powerpoint presentation of project
-├── king_county_appraisal_model_vF.ipynb      <-- main notebook where we determine the best model
-└── king_county_heatmap.ipynb      <-- notebook that creates heatmap of houses in king county by sale price
+├── 
+├── king_county_Notebook      <-- main notebook where we determine the best model
+├── king_county_presentation.pdf      <-- powerpoint presentation of project
+└── README.md
 ```
-
-This notebook uses a non-standard DSI library, named geopandas, as well as one named shapely
-conda install -c conda-forge geopandas
-conda install shapely
-import geopandas as gpd
-from shapely.geometry import Point, Polygon
