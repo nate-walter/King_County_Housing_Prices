@@ -19,7 +19,7 @@ This project utilizes the King County House Sales dataset, which is an existing 
 
 Through the various statistical methods, we then seek to iterate across different models to idenitfy the model with the most optimal statistical R-Squared Value, RMSE, and differential values. Then, we look to highlight the two main features that best provide predictions to housing prices. 
 
-With price prediction in mind, our purpose for our statistical analysis is to provide banks to appraise home values throughout the COVID-19 pandemic. Without the need to physically enter the domicile of clients' homes, banks would be able to provide appraisal services to prospective clients and existing clients in hopes of capturing more market share in the residential real estate market. 
+With price prediction in mind, our purpose for our statistical analysis is to provide banks the ability to appraise home values throughout the COVID-19 pandemic. Without the need to physically enter the domicile of clients' homes, banks would be able to provide appraisal services to prospective clients and existing clients in hopes of capturing more market share in the residential real estate market. 
 
 
 Our findings will help ACME bank develop and validate home appraisals without the need for outside individuals to enter a client or prospect's home. ACME can then use the predictions to set sales prices for homes to be put on the market at 
