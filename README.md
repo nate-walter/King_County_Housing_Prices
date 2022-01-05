@@ -15,7 +15,7 @@
 * [Repository Structure](#Repository-Structure)
 
 ## Overview
-This project utilizes the King County House Sales dataset, which is an existing dataset based on data from house sales of King County, WA from 2014 to 2015. Through the Data Science Process, we seek to understand our dataset with Exploratory Data Analysis and prepare, then model our data through an iterative approach. We begin from the baseline model and utilize an assortment of statistical techniques: linear regression, multlinear regression, ordinary least squares, recursive feature elimination, and binomial feature engineering.
+This project utilizes the King County House Sales dataset, which is an existing dataset based on data from house sales of King County, WA from 2014 to 2015. Through the Data Science Process, we seek to understand our dataset with Exploratory Data Analysis, then model our data through an iterative approach. We begin from the baseline model and utilize an assortment of statistical techniques: linear regression, multlinear regression, ordinary least squares, recursive feature elimination, and binomial feature engineering.
 
 Through the various statistical methods, we then seek to iterate across different models to idenitfy the model with the most optimal statistical R-Squared Value, RMSE, and differential values. Then, we look to highlight the two main features that best provide predictions to housing prices. 
 
